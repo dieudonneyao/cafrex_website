@@ -27,57 +27,57 @@
   <!-- ##### Breadcrumb Area End ##### -->
 
   <!-- ##### Famie Benefits Area Start ##### -->
-  <section class="famie-benefits-area pb-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="benefits-thumbnail mb-50">
-            <img src="img/bg-img/2.jpg" alt="">
-          </div>
-        </div>
-      </div>
+  <section class="famie-benefits-area section-padding-100-0 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="benefits-thumbnail mb-50">
+                        <img src="img/bg-img/HOME2.png" alt="">
+                    </div>
+                </div>
+            </div>
 
-      <div class="row justify-content-center">
-        <!-- Single Benefits Area -->
-        <div class="col-12 col-sm-4 col-lg">
-          <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="100ms">
-            <img src="img/core-img/digger.png" alt="">
-            <h5>Best Services</h5>
-          </div>
-        </div>
+            <div class="row justify-content-center">
+                <!-- Single Benefits Area -->
+                <div class="col-12 col-sm-4 col-lg">
+                    <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="100ms">
+                        <img src="img/core-img/digger.png" alt="">
+                        <h5>Expertise</h5>
+                    </div>
+                </div>
 
-        <!-- Single Benefits Area -->
-        <div class="col-12 col-sm-4 col-lg">
-          <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="300ms">
-            <img src="img/core-img/windmill.png" alt="">
-            <h5>Farm Experiences</h5>
-          </div>
-        </div>
+            <!-- Single Benefits Area -->
+            <div class="col-12 col-sm-4 col-lg">
+                <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="300ms">
+                    <img src="img/core-img/windmill.png" alt="">
+                    <h5>Production</h5>
+                </div>
+            </div>
 
-        <!-- Single Benefits Area -->
-        <div class="col-12 col-sm-4 col-lg">
-          <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="500ms">
-            <img src="img/core-img/cereals.png" alt="">
-            <h5>100% Natural</h5>
-          </div>
-        </div>
+            <!-- Single Benefits Area -->
+            <div class="col-12 col-sm-4 col-lg">
+                <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="500ms">
+                    <img src="img/core-img/cereals.png" alt="">
+                    <h5>Produits finis</h5>
+                </div>
+            </div>
 
-        <!-- Single Benefits Area -->
-        <div class="col-12 col-sm-4 col-lg">
-          <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="700ms">
-            <img src="img/core-img/tractor.png" alt="">
-            <h5>Farm Equipment</h5>
-          </div>
-        </div>
+            <!-- Single Benefits Area -->
+            <div class="col-12 col-sm-4 col-lg">
+                <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="700ms">
+                    <img src="img/core-img/tractor.png" alt="">
+                    <h5>Services mécanisés</h5>
+                </div>
+            </div>
 
-        <!-- Single Benefits Area -->
-        <div class="col-12 col-sm-4 col-lg">
-          <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="900ms">
-            <img src="img/core-img/sunrise.png" alt="">
-            <h5>Organic food</h5>
-          </div>
+            <!-- Single Benefits Area -->
+            <div class="col-12 col-sm-4 col-lg">
+                <div class="single-benefits-area wow fadeInUp mb-50" data-wow-delay="900ms">
+                    <img src="img/core-img/sunrise.png" alt="">
+                    <h5>Organic food</h5>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
   </section>
   <!-- ##### Famie Benefits Area End ##### -->
@@ -92,8 +92,8 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>About us</p>
-              <h2><span>Let Us</span> Tell You Our Story</h2>
+              <p>Notre histoire</p>
+              <h2><span></span>Connaitre les origines de CAFREX</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
             <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit. Etiam nunc elit, pretium atlanta urna veloci, fermentum malesuda mina. Donec auctor nislec neque sagittis, sit amet dapibus pellentesque donal feugiat. Nulla mollis magna non
@@ -204,8 +204,8 @@
         <div class="col-12">
           <!-- Section Heading -->
           <div class="section-heading text-center">
-            <p>MEET OUR TEAM</p>
-            <h2><span>The Great Team</span> Will Always Help You</h2>
+            <p>Notre Equipe</p>
+            <h2><span>Une équipe jeune</span> pour répondre à vos besoins</h2>
             <img src="img/core-img/decor2.png" alt="">
           </div>
         </div>
@@ -228,8 +228,8 @@
             </div>
             <!-- Team Member Info -->
             <div class="team-member-info">
-              <h5>Carlos Bacca</h5>
-              <h6>Coordinator</h6>
+              <h5>Sangaré Bouaké</h5>
+              <h6>CEO</h6>
             </div>
           </div>
         </div>
@@ -249,8 +249,8 @@
             </div>
             <!-- Team Member Info -->
             <div class="team-member-info">
-              <h5>Emilia Clarke</h5>
-              <h6>Controller</h6>
+              <h5>Sangaré Bouaké</h5>
+              <h6>CEO</h6>
             </div>
           </div>
         </div>
@@ -270,8 +270,8 @@
             </div>
             <!-- Team Member Info -->
             <div class="team-member-info">
-              <h5>Brian Doherty</h5>
-              <h6>Sales Executive</h6>
+              <h5>Sangaré Bouaké</h5>
+              <h6>CEO</h6>
             </div>
           </div>
         </div>
@@ -291,8 +291,8 @@
             </div>
             <!-- Team Member Info -->
             <div class="team-member-info">
-              <h5>Mary O’Connor</h5>
-              <h6>Plan Manager</h6>
+              <h5>Sangaré Bouaké</h5>
+              <h6>CEO</h6>
             </div>
           </div>
         </div>

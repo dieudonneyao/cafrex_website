@@ -7,7 +7,7 @@
       <div class="row h-100 align-items-center">
         <div class="col-12">
           <div class="breadcrumb-text">
-            <h2>News Details</h2>
+            <h2>Nos Services</h2>
           </div>
         </div>
       </div>
@@ -17,8 +17,8 @@
     <div class="container">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">News Details</li>
+          <li class="breadcrumb-item"><a href="/"><i class="fa fa-home"></i>Accueil</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Nos services</li>
         </ol>
       </nav>
     </div>
@@ -32,8 +32,8 @@
         <div class="col-12">
           <!-- Section Heading -->
           <div class="section-heading text-center">
-            <p>Make the green world</p>
-            <h2><span>Farming Practices</span> To Preserve Land & Water</h2>
+            <p>Services</p>
+            <h2><span>Agriculture</span> et Services Agricoles</h2>
             <img src="img/core-img/decor2.png" alt="">
           </div>
         </div>
@@ -43,62 +43,61 @@
 
         <!-- Single Farming Practice Area -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="100ms">
-            <!-- Thumbnail -->
-            <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/9.jpg" alt="">
+            <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                <!-- Thumbnail -->
+                <div class="farming-practice-thumbnail">
+                    <img src="img/bg-img/9.jpg" alt="">
+                </div>
+                <!-- Content -->
+                <div class="farming-practice-content text-center">
+                    <!-- Icon -->
+                    <div class="farming-icon">
+                        <img src="img/core-img/chicken.png" alt="">
+                    </div>
+                    <span>Production</span>
+                    <h4>Nous accompagnons les producteurs</h4>
+                    <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+                </div>
             </div>
-            <!-- Content -->
-            <div class="farming-practice-content text-center">
-              <!-- Icon -->
-              <div class="farming-icon">
-                <img src="img/core-img/chicken.png" alt="">
-              </div>
-              <span>Farming practice for</span>
-              <h4>Chicken Farmed For Meat</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
-            </div>
-          </div>
         </div>
 
         <!-- Single Farming Practice Area -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="200ms">
-            <!-- Thumbnail -->
-            <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/10.jpg" alt="">
+            <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="200ms">
+                <!-- Thumbnail -->
+                <div class="farming-practice-thumbnail">
+                  <img src="img/bg-img/10.jpg" alt="">
+                </div>
+                <!-- Content -->
+                <div class="farming-practice-content text-center">
+                    <!-- Icon -->
+                    <div class="farming-icon">
+                      <img src="img/core-img/pig.png" alt="">
+                    </div>
+                    <span>Suivi et Encadrement</span>
+                    <h4>Nous conseillons les producteurs</h4>
+                    <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+                </div>
             </div>
-            <!-- Content -->
-            <div class="farming-practice-content text-center">
-              <!-- Icon -->
-              <div class="farming-icon">
-                <img src="img/core-img/pig.png" alt="">
-              </div>
-              <span>Farming practice for</span>
-              <h4>Pig Farm Management</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
-            </div>
-          </div>
         </div>
-
         <!-- Single Farming Practice Area -->
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="300ms">
-            <!-- Thumbnail -->
-            <div class="farming-practice-thumbnail">
-              <img src="img/bg-img/11.jpg" alt="">
+            <div class="single-farming-practice-area mb-50 wow fadeInUp" data-wow-delay="300ms">
+                <!-- Thumbnail -->
+                <div class="farming-practice-thumbnail">
+                    <img src="img/bg-img/11.jpg" alt="">
+                </div>
+                <!-- Content -->
+                <div class="farming-practice-content text-center">
+                    <!-- Icon -->
+                    <div class="farming-icon">
+                      <img src="img/core-img/cow.png" alt="">
+                    </div>
+                    <span>Transformation</span>
+                    <h4>Nous achétons et transformons</h4>
+                    <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
+                </div>
             </div>
-            <!-- Content -->
-            <div class="farming-practice-content text-center">
-              <!-- Icon -->
-              <div class="farming-icon">
-                <img src="img/core-img/cow.png" alt="">
-              </div>
-              <span>Farming practice for</span>
-              <h4>Beef Cattle Farming</h4>
-              <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
-            </div>
-          </div>
         </div>
 
         <!-- Single Farming Practice Area -->
@@ -114,8 +113,8 @@
               <div class="farming-icon">
                 <img src="img/core-img/cereal.png" alt="">
               </div>
-              <span>Farming practice for</span>
-              <h4>Improved Rice Cultivation</h4>
+              <span>Commercialisation</span>
+              <h4> Nous vendons nos produits en CI</h4>
               <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
             </div>
           </div>
@@ -134,8 +133,8 @@
               <div class="farming-icon">
                 <img src="img/core-img/sprout.png" alt="">
               </div>
-              <span>Farming practice for</span>
-              <h4>Soil Improvement Techniques</h4>
+              <span>Formation</span>
+              <h4>Nous assistons les producteurs</h4>
               <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
             </div>
           </div>
@@ -154,8 +153,8 @@
               <div class="farming-icon">
                 <img src="img/core-img/vegetable.png" alt="">
               </div>
-              <span>Farming practice for</span>
-              <h4>Intensive Fruit Farming</h4>
+              <span>Services Mécanisés</span>
+              <h4>Nous disposons d'équipement adaptés</h4>
               <p>Donec nec justo eget felis facilisis ferme ntum. Aliquam portitor mauris sit amet orci. donec salim...</p>
             </div>
           </div>
@@ -169,12 +168,20 @@
   <!-- ##### News Details Area Start ##### -->
   <section class="news-details-area section-padding-0-100">
     <div class="container">
+        <div class="row">
+            <div class="col-12">
+              <!-- Section Heading -->
+                  <div class="section-heading text-center">
+                        <p>Notre Services</p>
+                        <h2><span>Production</span> Animalière </h2>
+                        <img src="img/core-img/decor.png" alt="">
+                  </div>
+            </div>
+        </div>
       <div class="row">
         <div class="col-12">
           <!-- News Details Content -->
-          <div class="news-details-content">
-            <h6>Post on <a href="#" class="post-date">18 Aug 2018</a> / <a href="#" class="post-author">Peter Crough</a></h6>
-            <h2 class="post-title">Rising cattle supplies see beef export lifted</h2>
+          <div class="news-details-content">           
 
             <p>Nunc aliquet, justo non commodo conguet, velici semi paluvinar denim, action bibendum purus selecao samuel eget libero. Maecenas ac viverra , sheta laoreet lacus. Etiam nisi diam, sagittis quam at mattis quam lorem, euismod dictum
               ante ornare eget. Nulla viverra suscipit sem deet suscipit. Suspendisse suscipit
@@ -216,136 +223,69 @@
             <p>Nunc feugiat ultrices metus. Duis dapibus lacus vulputate, sodales justo molestie, luctus est. Suspendisse ultricies, tellus at consectetur imperdiet, ipsum felis pulvinar quam, id pharetra elit lectus eleifend tortor. Etiam tellus
               arcu, malesuda sit amet ipsum sed, pretium eleifend lacus. Curabitur ultrice leo purus, nec bibendum est ultrices vel nullam posuere diam ornare.</p>
 
-            <!-- Share & Tags -->
-            <div class="share-tags d-flex flex-wrap align-items-center justify-content-between">
-              <!-- Share -->
-              <div class="share-post d-flex align-items-center">
-                <span>Share This post:</span>
-                <!-- Share Icons -->
-                <div class="share-icons">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                  <a href="#"><i class="fa fa-pinterest"></i></a>
-                </div>
-              </div>
-              <!-- Tags -->
-              <ul class="famie-tags">
-                <li><a href="#">All product</a></li>
-                <li><a href="#">Freshy Fruit</a></li>
-                <li><a href="#">Sweet Corn</a></li>
-              </ul>
-            </div>
+            
+            
           </div>
 
-          <!-- Post Author -->
-          <div class="post-author-area d-flex align-items-center">
-            <div class="post-author-img">
-              <img src="img/bg-img/38.jpg" alt="">
-            </div>
-            <div class="post-author-description">
-              <a href="#">
-                <h5>Peter Crough</h5>
-              </a>
-              <p>Duis tincidunt turpis sodales, tincidunt nisi et, auctor nisigama. Curabitur vulputate sapien espanyol metusi ultricies fermentum necvelpa.
-                Maecenas eget lacinia est molestie ligula, et euismod auctor. </p>
-            </div>
-          </div>
+          
 
-          <!-- Comment Area Start -->
-          <div class="comment_area clearfix mb-50">
-
-            <!-- Title -->
-            <h3 class="mb-50">3 Comments</h3>
-
-            <ul>
-              <!-- Single Comment Area -->
-              <li class="single_comment_area">
-                <!-- Comment Content -->
-                <div class="comment-content d-flex">
-                  <!-- Comment Author -->
-                  <div class="comment-author">
-                    <img src="img/bg-img/31.jpg" alt="author">
-                  </div>
-                  <!-- Comment Meta -->
-                  <div class="comment-meta">
-                    <a href="#" class="comment-date">27 Aug 2019</a>
-                    <h6>Diego Simeone</h6>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sitdown ameto, consectetur, adipisci velit, sed quiata non numqua eius modi tempor incidunt ut labore et dolore magnam, semper quis mollis id, ullamcorper ut diam.</p>
-                    <a href="#" class="reply">Reply</a>
-                  </div>
-                </div>
-
-                <ol class="children">
-                  <li class="single_comment_area">
-                    <!-- Comment Content -->
-                    <div class="comment-content d-flex">
-                      <!-- Comment Author -->
-                      <div class="comment-author">
-                        <img src="img/bg-img/32.jpg" alt="author">
-                      </div>
-                      <!-- Comment Meta -->
-                      <div class="comment-meta">
-                        <a href="#" class="comment-date">27 Aug 2019</a>
-                        <h6>Susie Martha</h6>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sitdown ameto, consectetur, adipisci velit, sed quiata non numqua eius modi tempor incidunt ut labore et dolore magnam, semper quis mollis id, ullamcorper ut diam.</p>
-                        <a href="#" class="reply">Reply</a>
-                      </div>
-                    </div>
-                  </li>
-                </ol>
-              </li>
-
-              <!-- Single Comment Area -->
-              <li class="single_comment_area">
-                <!-- Comment Content -->
-                <div class="comment-content d-flex">
-                  <!-- Comment Author -->
-                  <div class="comment-author">
-                    <img src="img/bg-img/33.jpg" alt="author">
-                  </div>
-                  <!-- Comment Meta -->
-                  <div class="comment-meta">
-                    <a href="#" class="comment-date">27 Aug 2019</a>
-                    <h6>Jonny Evans</h6>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sitdown ameto, consectetur, adipisci velit, sed quiata non numqua eius modi tempor incidunt ut labore et dolore magnam, semper quis mollis id, ullamcorper ut diam.</p>
-                    <a href="#" class="reply">Reply</a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Post A Comment Area -->
-          <div class="post-a-comment-area">
-
-            <!-- Title -->
-            <h3 class="mb-50">Leave A Reply</h3>
-
-            <!-- Reply Form -->
-            <div class="contact-form-area">
-              <form action="#" method="post">
-                <div class="row">
-                  <div class="col-12 col-lg-6">
-                    <input type="text" class="form-control" id="name" placeholder="Your Name*">
-                  </div>
-                  <div class="col-12 col-lg-6">
-                    <input type="email" class="form-control" id="email" placeholder="Your Email*">
-                  </div>
-                  <div class="col-12">
-                    <textarea name="message" class="form-control" id="message" placeholder="Message*"></textarea>
-                  </div>
-                  <div class="col-12">
-                    <button class="btn famie-btn mt-30" type="submit">Submit Comment</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
+          
 
         </div>
       </div>
     </div>
   </section>
   <!-- ##### News Details Area End ##### -->
+  
+    <!-- ##### Contact Area Start ##### -->
+    <section class="contact-area bg-gray section-padding-100-0">
+    <div class="container">
+      <div class="row align-items-end">
+
+        <!-- Contact Content -->
+        <div class="col-12 col-lg-7">
+          <div class="contact-content section-padding-0-100">
+            <!-- Section Heading -->
+            <div class="section-heading">
+              <p>Devenir meilleur producteur</p>
+              <h2><span>Commencez</span> en vous enregistrant</h2>
+              <img src="img/core-img/decor.png" alt="">
+            </div>
+            <!-- Contact Form Area -->
+            <div class="contact-form-area">
+              <form action="index.html" method="post">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control" name="name" placeholder="Votre nom">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="email" class="form-control" name="email" placeholder="Votre Email">
+                  </div>
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Votre entreprise">
+                  </div>
+                  <div class="col-12">
+                    <textarea name="message" class="form-control" cols="30" rows="10" placeholder="Votre message"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn famie-btn">Envoyez</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Maps -->
+        <div class="col-lg-5">
+          <div class="consaltant-thumbnail text-center">
+            <img src="img/bg-img/25.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ##### Contact Area End ##### -->
+
 
   @endsection
