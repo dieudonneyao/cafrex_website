@@ -7,7 +7,7 @@
       <div class="row h-100 align-items-center">
         <div class="col-12">
           <div class="breadcrumb-text">
-            <h2>Our Product</h2>
+            <h2>Nos Produits</h2>
           </div>
         </div>
       </div>
@@ -17,8 +17,8 @@
     <div class="container">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Our Product</li>
+          <li class="breadcrumb-item"><a href="/"><i class="fa fa-home"></i> Accueil</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Nos produits</li>
         </ol>
       </nav>
     </div>
@@ -35,8 +35,8 @@
           <div class="about-us-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>FARM PRODUCE</p>
-              <h2><span>The Future</span> Of Agriculture </h2>
+              <p>Transformation des récoltes</p>
+              <h2><span>Transformer</span> pour aider au développement </h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
             <p>Lorem ipsum dolor sit amet, consectetu adipiscing elit. Etiam nunc elit, pretium atlanta urna veloci, fermentum malesuda mina. Donec auctor nislec neque sagittis, sit amet dapibus pellentesque donal feugiat. Nulla mollis magna non
@@ -69,8 +69,8 @@
           <div class="col-12">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>What we do</p>
-              <h2><span>Our Produce</span> Is Mainstay For Us</h2>
+              <p>Nos produits</p>
+              <h2><span>Produits</span> Finis et Semi-finis</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
           </div>
@@ -89,7 +89,7 @@
               <!-- Service Title -->
               <div class="service-title mb-3 d-flex align-items-center">
                 <img src="img/core-img/s1.png" alt="">
-                <h5>Fruit &amp; Vegetable</h5>
+                <h5>Le Riz</h5>
               </div>
               <p>Intiam eu sagittis est, aster cosmo lacini libero. Praesent dignissim sed odio velo aliquam manta legolas. </p>
             </div>
@@ -101,7 +101,7 @@
               <!-- Service Title -->
               <div class="service-title mb-3 d-flex align-items-center">
                 <img src="img/core-img/s2.png" alt="">
-                <h5>Meat &amp; Eggs</h5>
+                <h5>Le Maïs</h5>
               </div>
               <p>Intiam eu sagittis est, aster cosmo lacini libero. Praesent dignissim sed odio velo aliquam manta legolas. </p>
             </div>
@@ -113,7 +113,7 @@
               <!-- Service Title -->
               <div class="service-title mb-3 d-flex align-items-center">
                 <img src="img/core-img/s3.png" alt="">
-                <h5>Milk &amp; Cheese</h5>
+                <h5>La tomate</h5>
               </div>
               <p>Intiam eu sagittis est, aster cosmo lacini libero. Praesent dignissim sed odio velo aliquam manta legolas. </p>
             </div>
@@ -125,7 +125,7 @@
               <!-- Service Title -->
               <div class="service-title mb-3 d-flex align-items-center">
                 <img src="img/core-img/s4.png" alt="">
-                <h5>Rice &amp; Corn</h5>
+                <h5>Le coton</h5>
               </div>
               <p>Intiam eu sagittis est, aster cosmo lacini libero. Praesent dignissim sed odio velo aliquam manta legolas. </p>
             </div>
@@ -137,15 +137,15 @@
   </section>
   <!-- ##### Services Area End ##### -->
 
-  <!-- ##### Our Products Area Start ##### -->
-  <section class="our-products-area section-padding-100">
+<!-- ##### Our Products Area Start ##### -->
+<section class="our-products-area section-padding-100">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <!-- Section Heading -->
           <div class="section-heading text-center">
-            <p>Featured Products</p>
-            <h2><span>Our Product</span> Are Highest Quality</h2>
+            <p>Produits Semi-Finis et Finis</p>
+            <h2><span>Nos produits</span> sont Bio et de qualité</h2>
             <img src="img/core-img/decor2.png" alt="">
           </div>
         </div>
@@ -155,12 +155,12 @@
 
         <!-- Single Product Area -->
         <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-product-area mb-50">
+          <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
             <!-- Product Thumbnail -->
             <div class="product-thumbnail">
-              <img src="img/bg-img/p1.jpg" alt="">
+              <img src="img/bg-img/riz.png" alt="">
               <!-- Product Tags -->
-              <span class="product-tags">Hot</span>
+              <span class="product-tags">Bio</span>
               <!-- Product Meta Data -->
               <div class="product-meta-data">
                 <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
@@ -170,62 +170,20 @@
             </div>
             <!-- Product Description -->
             <div class="product-desc text-center pt-4">
-              <a href="#" class="product-title">Strawberry</a>
-              <h6 class="price">$17.99</h6>
+              <a href="#" class="product-title">Riz</a>
+              <h6 class="price"></h6>
             </div>
           </div>
         </div>
 
         <!-- Single Product Area -->
         <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-product-area mb-50">
+          <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="300ms">
             <!-- Product Thumbnail -->
             <div class="product-thumbnail">
-              <img src="img/bg-img/p2.jpg" alt="">
-              <!-- Product Meta Data -->
-              <div class="product-meta-data">
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="icon_cart_alt"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><i class="arrow_left-right_alt"></i></a>
-              </div>
-            </div>
-            <!-- Product Description -->
-            <div class="product-desc text-center pt-4">
-              <a href="#" class="product-title">Baked Breads</a>
-              <h6 class="price">$9.99</h6>
-            </div>
-          </div>
-        </div>
-
-        <!-- Single Product Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-product-area mb-50">
-            <!-- Product Thumbnail -->
-            <div class="product-thumbnail">
-              <img src="img/bg-img/p3.jpg" alt="">
-              <!-- Product Meta Data -->
-              <div class="product-meta-data">
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="icon_cart_alt"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><i class="arrow_left-right_alt"></i></a>
-              </div>
-            </div>
-            <!-- Product Description -->
-            <div class="product-desc text-center pt-4">
-              <a href="#" class="product-title">Prime Beef</a>
-              <h6 class="price">$59.99</h6>
-            </div>
-          </div>
-        </div>
-
-        <!-- Single Product Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-product-area mb-50">
-            <!-- Product Thumbnail -->
-            <div class="product-thumbnail">
-              <img src="img/bg-img/p4.jpg" alt="">
+              <img src="img/bg-img/maïs.png" alt="">
               <!-- Product Tags -->
-              <span class="product-tags bg-danger">Sale</span>
+              <span class="product-tags">Bio</span>
               <!-- Product Meta Data -->
               <div class="product-meta-data">
                 <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
@@ -235,8 +193,54 @@
             </div>
             <!-- Product Description -->
             <div class="product-desc text-center pt-4">
-              <a href="#" class="product-title">Pure Honey</a>
-              <h6 class="price"><span>$29.99</span> $19.99</h6>
+              <a href="#" class="product-title">Maïs</a>
+              <h6 class="price"></h6>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Product Area -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="500ms">
+            <!-- Product Thumbnail -->
+            <div class="product-thumbnail">
+              <img src="img/bg-img/tomate.png" alt="">
+              <!-- Product Tags -->
+              <span class="product-tags">Bio</span>
+              <!-- Product Meta Data -->
+              <div class="product-meta-data">
+                <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
+                <a href="#" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="icon_cart_alt"></i></a>
+                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><i class="arrow_left-right_alt"></i></a>
+              </div>
+            </div>
+            <!-- Product Description -->
+            <div class="product-desc text-center pt-4">
+              <a href="#" class="product-title">Tomate</a>
+              <h6 class="price"></h6>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Product Area -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="700ms">
+            <!-- Product Thumbnail -->
+            <div class="product-thumbnail">
+              <img src="img/bg-img/coton.png" alt="">
+              <!-- Product Tags -->
+              <span class="product-tags">Bio</span>
+              <!-- Product Meta Data -->
+              <div class="product-meta-data">
+                <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
+                <a href="#" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="icon_cart_alt"></i></a>
+                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><i class="arrow_left-right_alt"></i></a>
+              </div>
+            </div>
+            <!-- Product Description -->
+            <div class="product-desc text-center pt-4">
+              <a href="#" class="product-title">Coton</a>
+              <h6 class="price"><span></span> </h6>
             </div>
           </div>
         </div>
@@ -245,29 +249,29 @@
 
       <div class="row">
         <div class="col-12">
-          <div class="gotoshop-btn text-center">
-            <a href="shop.html" class="btn famie-btn">Go to Store</a>
+          <div class="gotoshop-btn text-center wow fadeInUp" data-wow-delay="900ms">
+            <a href="/products" class="btn famie-btn">Tous les produits</a>
           </div>
         </div>
       </div>
     </div>
-  </section>
+</section>
   <!-- ##### Our Products Area End ##### -->
 
-  <!-- ##### Newsletter Area Start ##### -->
-  <section class="newsletter-area section-padding-100 bg-img bg-overlay jarallax" style="background-image: url('img/bg-img/8.jpg');">
+<!-- ##### Newsletter Area Start ##### -->
+<section class="newsletter-area section-padding-100 bg-img bg-overlay jarallax" style="background-image: url('img/bg-img/newsletter.png');">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-10">
           <div class="newsletter-content">
             <!-- Section Heading -->
             <div class="section-heading white text-center">
-              <p>What we do</p>
-              <h2><span>Our Produce</span> Is Mainstay For Us</h2>
+              <p>En savoir plus</p>
+              <h2><span>Nos produits</span> Vous Intéresse</h2>
               <img src="img/core-img/decor2.png" alt="">
             </div>
-            <p class="text-white mb-50 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at diam convallis ligula cursus bibendum sed at enim. Class aptent taciti sociosqu ad litora torquent conubia nostra, per inceptos
-              himenaeos.</p>
+            <p class="text-white mb-50 text-center">Nous serons heureux de vous informer de toutes nouveautés concernant nos prouits et services. De plus nos experts sont disponible pour vous aidez à travers de petites astuces
+              qui vous aideront à mieux avoir la main sur votre cycle et circuit de production.</p>
           </div>
         </div>
       </div>
@@ -275,8 +279,8 @@
       <div class="row justify-content-center">
         <div class="col-12 col-lg-6">
           <form action="#" method="post">
-            <input type="text" class="form-control" placeholder="Enter your email">
-            <button type="submit" class="btn famie-btn">Subscribe</button>
+            <input type="text" class="form-control" placeholder="Entrer votre email">
+            <button type="submit" class="btn famie-btn">Souscrire</button>
           </form>
         </div>
       </div>
@@ -294,8 +298,8 @@
           <div class="contact-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>Contact now</p>
-              <h2><span>Get In Touch</span> With Us</h2>
+              <p>Contactez-nous</p>
+              <h2><span>Nous serons heureux de répondre</span> à vos attente</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
             <!-- Contact Form Area -->
@@ -303,19 +307,19 @@
               <form action="index.html" method="post">
                 <div class="row">
                   <div class="col-lg-6">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name">
+                    <input type="text" class="form-control" name="name" placeholder="Votre nom">
                   </div>
                   <div class="col-lg-6">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email">
+                    <input type="email" class="form-control" name="email" placeholder="Votre Email">
                   </div>
                   <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Your Subject">
+                    <input type="text" class="form-control" name="subject" placeholder="Votre entreprise">
                   </div>
                   <div class="col-12">
-                    <textarea name="message" class="form-control" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <textarea name="message" class="form-control" cols="30" rows="10" placeholder="votre Message"></textarea>
                   </div>
                   <div class="col-12">
-                    <button type="submit" class="btn famie-btn">Send Message</button>
+                    <button type="submit" class="btn famie-btn">Envoyez</button>
                   </div>
                 </div>
               </form>

@@ -6,7 +6,7 @@
       <div class="row h-100 align-items-center">
         <div class="col-12">
           <div class="breadcrumb-text">
-            <h2>CONTACT US</h2>
+            <h2>CONTACTEZ-NOUS</h2>
           </div>
         </div>
       </div>
@@ -16,7 +16,7 @@
     <div class="container">
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+          <li class="breadcrumb-item"><a href="/"><i class="fa fa-home"></i> Accueil</a></li>
           <li class="breadcrumb-item active" aria-current="page">Contact</li>
         </ol>
       </nav>
@@ -31,8 +31,8 @@
         <div class="col-12">
           <!-- Section Heading -->
           <div class="section-heading text-center">
-            <p>CONTACT INFO</p>
-            <h2><span>The Best Way</span> To Contact Us For The Help</h2>
+            <p>Nous sommes là pour vous</p>
+            <h2><span>La meilleure manière de vous aider</span> c'est de nous contactez</h2>
             <img src="img/core-img/decor2.png" alt="">
           </div>
         </div>
@@ -46,8 +46,8 @@
             <div class="contact-icon">
               <i class="icon_pin_alt"></i>
             </div>
-            <h5>Address</h5>
-            <h6>120 Raymond Rd, Canarsie, New York</h6>
+            <h5>Adresse</h5>
+            <h6>Plateau DOKUI, Abidjan Côte d'Ivoire</h6>
           </div>
         </div>
 
@@ -57,8 +57,8 @@
             <div class="contact-icon">
               <i class="icon_phone"></i>
             </div>
-            <h5>Phone</h5>
-            <h6>+84 223 9000</h6>
+            <h5>Téléphone</h5>
+            <h6>+225 01 02 78 09 33</h6>
           </div>
         </div>
 
@@ -69,7 +69,7 @@
               <i class="icon_mail_alt"></i>
             </div>
             <h5>Email</h5>
-            <h6>info.deercreative@gmail.com</h6>
+            <h6>sangare.cafrex@gmail.com</h6>
           </div>
         </div>
 
@@ -79,8 +79,8 @@
   </section>
   <!-- ##### Contact Information Area End ##### -->
 
-  <!-- ##### Contact Area Start ##### -->
-  <section class="contact-area section-padding-100-0">
+    <!-- ##### Contact Area Start ##### -->
+    <section class="contact-area section-padding-100-0">
     <div class="container">
       <div class="row justify-content-between">
 
@@ -89,28 +89,28 @@
           <div class="contact-content mb-100">
             <!-- Section Heading -->
             <div class="section-heading">
-              <p>Contact now</p>
-              <h2><span>Get In Touch</span> With Us</h2>
+              <p>Contactez-nous</p>
+              <h2><span>Nous serons heureux de répondre</span> à vos attente</h2>
               <img src="img/core-img/decor.png" alt="">
             </div>
             <!-- Contact Form Area -->
             <div class="contact-form-area">
-              <form action="#" method="post">
+              <form action="index.html" method="post">
                 <div class="row">
                   <div class="col-lg-6">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name">
+                    <input type="text" class="form-control" name="name" placeholder="Votre nom">
                   </div>
                   <div class="col-lg-6">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email">
+                    <input type="email" class="form-control" name="email" placeholder="Votre Email">
                   </div>
                   <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Your Subject">
+                    <input type="text" class="form-control" name="subject" placeholder="Votre entreprise">
                   </div>
                   <div class="col-12">
-                    <textarea name="message" class="form-control" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <textarea name="message" class="form-control" cols="30" rows="10" placeholder="votre Message"></textarea>
                   </div>
                   <div class="col-12">
-                    <button type="submit" class="btn famie-btn">Send Message</button>
+                    <button type="submit" class="btn famie-btn">Envoyez</button>
                   </div>
                 </div>
               </form>
