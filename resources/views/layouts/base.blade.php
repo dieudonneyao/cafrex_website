@@ -13,6 +13,8 @@
         <link rel="icon" href="img/core-img/favicon.ico">
         <!-- Core Stylesheet -->
         <link rel="stylesheet" href="{{asset('style.css')}}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/brands.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     </head>
 
     <body>
@@ -63,6 +65,10 @@
         <!-- Jarallax Video js -->
         <script src="{{asset('js/jarallax-video.min.js')}}"></script>
         <!-- Active js -->
+        <script src="{{asset('js/jarallax-video.min.js')}}"></script>
         <script src="{{asset('js/active.js')}}"></script>
+        <script src="{{asset('js/jquery.js')}}"></script>  
+        <script src="{{asset('js/brand.js')}}"></script>    
+        
     </body>
 </html>

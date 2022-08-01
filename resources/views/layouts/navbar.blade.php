@@ -3,11 +3,11 @@
         <div class="container">
             <!-- Menu -->
             <nav class="classy-navbar justify-content-between" id="famieNav">
-                <!-- Nav Brand -->
-                <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
-                <!-- Navbar Toggler -->
+                <div class="nav-brand">
+                    <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                </div>
                 <div class="classy-navbar-toggler">
-                <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    <span class="navbarToggler"><span></span><span></span><span></span></span>
                 </div>
             <!-- Menu -->
                 <div class="classy-menu">
@@ -22,21 +22,10 @@
                             <li><a href="/about">Présentation</a></li>
                             <li><a href="/expertise">Notre métier</a></li>
                             <li><a href="/services">Services</a></li>
-                            <li><a href="/products">Produits</a></li>                            
+                            <li><a href="/products">Produits</a></li>                           
                             <li><a href="/news">Actualités</a></li>
                             <li><a href="/contacts">Contact</a></li>
-                        </ul>
-                        <!-- Search Icon -->
-                        <div id="searchIcon">
-                            <i class="icon_search" aria-hidden="true"></i>
-                        </div>
-                        <!-- Cart Icon -->
-                        <div id="cartIcon">
-                            <a href="#">
-                                <i class="icon_cart_alt" aria-hidden="true"></i>
-                                <span class="cart-quantity">2</span>
-                            </a>
-                        </div>
+                        </ul>                       
                     </div>
                     <!-- Navbar End -->
                 </div>
