@@ -2465,10 +2465,9 @@ textarea.form-control {
 
 .brands_slider_container {
   height: 180px;
-  border: solid 2px #e8e8e8;
   padding-left: 97px;
   padding-right: 97px;
-  background: #F7F7F7;
+  background: #FFF;
   border-radius : 10px;
 }
 
