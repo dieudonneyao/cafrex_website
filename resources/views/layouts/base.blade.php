@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <!-- Title -->
-        <title>CAFREX - Compagnie &amp; Africaine d'Expertise Agricole | Agriculture</title>
+        <title>CAFREX || @yield('title')</title>
         <!-- Favicon -->
         <link rel="icon" href="img/core-img/favicon.ico">
         <!-- Core Stylesheet -->
@@ -36,7 +36,9 @@
         <div>
             @yield('content')
         </div>
-
+        <!-- ##### Footer Area Start ##### -->
+                    @include('layouts.partenaires')
+        <!-- ##### Footer Area End ##### -->
         <!-- ##### Footer Area Start ##### -->
                     @include('layouts.footer')
         <!-- ##### Footer Area End ##### -->

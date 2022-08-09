@@ -1,5 +1,6 @@
 
 @extends('layouts.base')
+@section('title', 'Notre société')
 @section('content')
 
   <!-- ##### Breadcrumb Area Start ##### -->
@@ -31,7 +32,7 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-l2">
                     <div class="about_box">
-                        <h1><img src="img/core-img/decor2.png" alt=""> <strong class="black"> Notre histoire</strong></h1>
+                        <h1><strong class="black"> Notre histoire</strong></h1>
                        
                     </div>
                 </div>
@@ -52,7 +53,7 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-l2">
                     <div class="about_box">
-                        <h1><img src="img/core-img/decor2.png" alt=""><strong class="black"> Notre vision</strong></h1>
+                        <h1> <strong class="black"> Notre vision</strong></h1>
                        
                     </div>
                 </div>
@@ -73,24 +74,25 @@
             <div class="row">
               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-l2">
                 <div class="about_box">
-                    <h1><img src="img/core-img/decor2.png" alt=""><strong class="black"> Notre objectif</strong></h1>
+                    <h1><strong class="black"> Notre objectif</strong></h1>
                     
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="container service_mixte">
+              <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-l2">
-                    <div class="about_box">                        
-                        <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
-                        
-                    </div>
+                  <div class="about_box">
+                    <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+                  </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-l2">
-                    <div class="about_img famie-video-play mb-100">
-                        <figure> <img src="img/bg-img/6.jpg" alt="img" /> </figure>
-                    </div>
+                  <div class="bg-img">
+                      <img class="img-fluid aboutimg" src="img/bg-img/riz2.jpg" alt="Directeur">
+                  </div>
                 </div>
-            </div>
+              </div>
+          </div>
         </div>
 </div>
 <div id="about" class="about">
@@ -98,7 +100,7 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-l2">
                     <div class="about_box">
-                        <h1><img src="img/core-img/decor2.png" alt=""><strong class="black"> Nos Atouts</strong></h1>                       
+                        <h1> <strong class="black"> Nos Atouts</strong></h1>                       
                     </div>
                 </div>
             </div>

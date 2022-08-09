@@ -1,4 +1,5 @@
 @extends('layouts.base')
+@section('title', 'Contact')
 @section('content')
 
   <div class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url('img/bg-img/18.jpg');">

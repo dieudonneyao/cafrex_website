@@ -1,39 +1,41 @@
 
 @extends('layouts.base')
+@section('title', 'Accueil')
 @section('content')
 
     <div class="welcome-slides owl-carousel">
         <!-- Single Welcome Slides -->
-        <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/tracteur.png);">
+
+        <div class="single-welcome-slides bg-img  jarallax" style="background-image: url(img/bg-img/tracteurslide.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 col-lg-10">
                         <div class="welcome-content">
-                            <h2 data-animation="fadeInUp" data-delay="200ms">Nous assurons un service mécanisé auprès des producteurs.</h2>
+                            <h1 data-animation="fadeInUp" data-delay="200ms">CAFREX : La production agricole est notre métier.</h1>
                             <p data-animation="fadeInUp" data-delay="400ms">
                                 Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
                                 Morbi arcu mi, dictum eu luala, dapibus
                                 interdum mollis.
                             </p>
-                            <a href="#" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+                            <a href="#" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Voir plus</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/PRODUITS.png);">
+        <div class="single-welcome-slides bg-img  jarallax" style="background-image: url(img/bg-img/PRODUITS.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 col-lg-10">
                         <div class="welcome-content">
-                            <h2 data-animation="fadeInUp" data-delay="200ms">Nos produits semi-finis et finis sont la fierté de notre pays .</h2>
+                            <h1 data-animation="fadeInUp" data-delay="200ms">Nos produits semi-finis et finis sont la fierté de notre pays .</h1>
                             <p data-animation="fadeInUp" data-delay="400ms">
                                 Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
                                 Morbi arcu mi, dictum eu luala, dapibus
                                 interdum mollis.
                             </p>
-                            <a href="#" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Contact Us</a>
+                            <a href="#" class="btn famie-btn mt-4" data-animation="bounceInUp" data-delay="600ms">Voir plus</a>
                         </div>
                     </div>
                 </div>
@@ -41,12 +43,12 @@
         </div>
 
                 <!-- Single Welcome Slides -->
-          <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/PRODUCTION.png);">
+          <div class="single-welcome-slides bg-img jarallax" style="background-image: url(img/bg-img/transformationslide.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 col-lg-10">
                         <div class="welcome-content">
-                            <h2 data-animation="fadeInDown" data-delay="200ms">Nous aidons à la promotion des cultures et des cultivivateurs.</h2>
+                            <h1 data-animation="fadeInDown" data-delay="200ms">Nous aidons à la promotion des cultures et des cultivivateurs.</h1>
                             <p data-animation="fadeInDown" data-delay="400ms">
                                 Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
                                 Morbi arcu mi, dictum eu luala, dapibus
@@ -60,12 +62,12 @@
         </div>
 
         <!-- Single Welcome Slides -->
-        <div class="single-welcome-slides bg-img bg-overlay jarallax" style="background-image: url(img/bg-img/TRANSFORMATION.png);">
+        <div class="single-welcome-slides bg-img jarallax" style="background-image: url(img/bg-img/donsslide.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12 col-lg-10">
                         <div class="welcome-content">
-                            <h2 data-animation="fadeInDown" data-delay="200ms">Nous transformons nos récoltes en des produits de qualité.</h2>
+                            <h1 data-animation="fadeInDown" data-delay="200ms">Nous accompagnons nos producteurs par notre expertise.</h1>
                             <p data-animation="fadeInDown" data-delay="400ms">
                                 Mauris vestibulum dolor nec lacinia facilisis. Fusce interdum sagittis volutpat. Praesent eget varius ligula, malesuada eleifend purus. Aenean euismod est at mauris mollis ultricies.
                                 Morbi arcu mi, dictum eu luala, dapibus
@@ -78,7 +80,7 @@
             </div>
         </div>
     </div>
-  </div>
+ 
   <!-- ##### Hero Area End ##### -->
 
  
@@ -114,18 +116,20 @@
           
 
         </div>
-        <a href="#" class="btn-sm famie-btn mt-30">En savoir plus</a>
+        <a href="/services" class="btn-sm famie-btn mt-30">En savoir plus</a>
       </div>
     </div>
     <div class="row serve1">
-      <div class="boite2 col-12 col-md-6">       
-        <p class="paraserve">
-          <h2 class="titreserve">ELEVAGE </h2>
+      <div class="boite2 col-sm-12 col-md-6 col-lg-6 col-xl-6"> 
+        <div>
+      <h2 class="titreserve">ELEVAGE </h2>
+        <span class="paraserve">          
           Boeufs - Mouton - Volailles.
-        </p>
-        <a href="#" class="btn-sm famie-btn mt-30">En savoir plus</a>
+        </span>
+        </div>
+        <a href="/services" class="btn-sm famie-btn mt-30">En savoir plus</a>
       </div>
-      <div class="boximage col-12 col-md-6 services-thumbnail bg-img" style="background-image: url('img/bg-img/fond1.png');" >
+      <div class="boximage col-12 col-md-6 services-thumbnail bg-img" style="background-image: url('img/bg-img/ELEVAGE.jpg');" >
       </div>
       
     </div>
@@ -153,7 +157,7 @@
           <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
             <!-- Product Thumbnail -->
             <div class="product-thumbnail">
-              <img src="img/bg-img/riz.png" alt="">
+              <img src="img/bg-img/prod5cafe.jpg" alt="">
               <!-- Product Tags -->
               <span class="product-tags">Bio</span>
               <!-- Product Meta Data -->
@@ -165,7 +169,7 @@
             </div>
             <!-- Product Description -->
             <div class="product-desc text-center pt-4">
-              <a href="#" class="product-title">Riz</a>
+              <a href="#" class="product-title">Café</a>
               <h6 class="price"></h6>
             </div>
           </div>
@@ -176,9 +180,9 @@
           <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="300ms">
             <!-- Product Thumbnail -->
             <div class="product-thumbnail">
-              <img src="img/bg-img/maïs.png" alt="">
+              <img src="img/bg-img/prod1ana.jpg" alt="">
               <!-- Product Tags -->
-              <span class="product-tags">Bio</span>
+              
               <!-- Product Meta Data -->
               <div class="product-meta-data">
                 <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
@@ -188,7 +192,7 @@
             </div>
             <!-- Product Description -->
             <div class="product-desc text-center pt-4">
-              <a href="#" class="product-title">Maïs</a>
+              <a href="#" class="product-title">Anacarde</a>
               <h6 class="price"></h6>
             </div>
           </div>
@@ -199,9 +203,9 @@
           <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="500ms">
             <!-- Product Thumbnail -->
             <div class="product-thumbnail">
-              <img src="img/bg-img/tomate.png" alt="">
+              <img src="img/bg-img/prod2cacao.jpg" alt="">
               <!-- Product Tags -->
-              <span class="product-tags">Bio</span>
+              
               <!-- Product Meta Data -->
               <div class="product-meta-data">
                 <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
@@ -222,9 +226,9 @@
           <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="700ms">
             <!-- Product Thumbnail -->
             <div class="product-thumbnail">
-              <img src="img/bg-img/coton.png" alt="">
+              <img src="img/bg-img/prod3mais.jpg" alt="">
               <!-- Product Tags -->
-              <span class="product-tags">Bio</span>
+              
               <!-- Product Meta Data -->
               <div class="product-meta-data">
                 <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
@@ -234,7 +238,7 @@
             </div>
             <!-- Product Description -->
             <div class="product-desc text-center pt-4">
-              <a href="#" class="product-title">Coton</a>
+              <a href="#" class="product-title">Maïs</a>
               <h6 class="price"><span></span> </h6>
             </div>
           </div>
@@ -283,76 +287,7 @@
   </section>
   <!-- ##### Newsletter Area End ##### -->
    <!--Start Brand area-->
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <!-- Section Heading -->
-        <div class="section-heading text-center">
-          <p>COLLABORATION</p>
-          <h1><span>Nos partenaires</span></h1>
-          <img src="img/core-img/decor2.png" alt="">
-        </div>
-      </div>
-    </div>      
-  </div>
-    <!--End Brand area-->
-    <div class="brands"> 
-      <div class="container-fluid"> 
-        <div class="row"> 
-          <div class="col"> 
-            <div class="brands_slider_container"> 
-              <div class="owl-carousel owl-theme brands_slider"> 
-                <div class="owl-item">
-                  <div class="brands_item d-flex flex-column justify-content-center">
-                    <img src="img/brand/1.png" alt="1">
-                  </div>
-                </div> 
-                <div class="owl-item">
-                  <div class="brands_item d-flex flex-column justify-content-center">
-                    <img src="img/brand/2.png" alt="2">
-                  </div>
-                </div> 
-                <div class="owl-item">
-                  <div class="brands_item d-flex flex-column justify-content-center">
-                    <img src="img/brand/3.png" alt="3">
-                  </div>
-                </div> 
-                <div class="owl-item">
-                  <div class="brands_item d-flex flex-column justify-content-center">
-                    <img src="img/brand/4.png" alt="4">
-                  </div>
-                </div> 
-                <div class="owl-item">
-                  <div class="brands_item d-flex flex-column justify-content-center">
-                    <img src="img/brand/5.png" alt="5">
-                  </div>
-                </div> 
-                <div class="owl-item">
-                  <div class="brands_item d-flex flex-column justify-content-center">
-                    <img src="img/brand/6.png" alt="6">
-                  </div>
-                </div> 
-                <div class="owl-item">
-                  <div class="brands_item d-flex flex-column justify-content-center">
-                    <img src="img/brand/7.png" alt="7">
-                  </div>
-                </div> 
-                <div class="owl-item"><div class="brands_item d-flex flex-column justify-content-center">
-                  <img src="img/brand/8.png" alt="8">
-                </div>
-              </div> 
-            </div> 
-            <!-- Brands Slider Navigation --> 
-            <div class="brands_nav brands_prev">
-              <i class="fas fa-chevron-left"></i>
-            </div> 
-            <div class="brands_nav brands_next">
-              <i class="fas fa-chevron-right"></i>
-            </div> 
-          </div> 
-        </div> 
-      </div> 
-    </div> 
+  
   </div>
 
     
