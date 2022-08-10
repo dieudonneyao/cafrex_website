@@ -1,4 +1,5 @@
 @extends('layouts.base')
+@section('title', 'Nos Produits')
 @section('content')
 
  <!-- ##### Breadcrumb Area Start ##### -->
@@ -7,17 +8,17 @@
       <div class="row h-100 align-items-center">
         <div class="col-12">
           <div class="breadcrumb-text">
-            <h2>Nos Produits</h2>
+            <h1>Nos Produits</h1>
           </div>
         </div>
       </div>
     </div>
   </div>
   <div class="famie-breadcrumb">
-    <div class="container">
+    <div>
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/"><i class="fa fa-home"></i> Accueil</a></li>
+          <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home"></i> Accueil</a></li>
           <li class="breadcrumb-item active" aria-current="page">Nos produits</li>
         </ol>
       </nav>
@@ -57,206 +58,106 @@
   </section>
   <!-- ##### About Us Area End ##### -->
 
-  <!-- ##### Services Area Start ##### -->
-  <section class="services-area d-flex flex-wrap">
-    <!-- Service Thumbnail -->
-    <div class="services-thumbnail bg-img jarallax" style="background-image: url('img/bg-img/7.jpg');"></div>
+  
+  <div class="container-fluid conteneur">						
+				<div class="row grid">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <figure class="effect-milo">
+                            <img src="img/bg-img/PH1.jpg" alt="img11"/>
+                            <figcaption>
+                                <h2>Production</h2>
+                                <p>Repiquage des plants de riz par les producteurs.</p>
+                                <a href="#">+</a>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <figure class="effect-milo">
+                        <img src="img/bg-img/PH2.jpg" alt="img11"/>
+                            <figcaption>
+                                <h2>Récolte </h2>
+                                <p>Entreposage du riz après récolte.</p>
+                                
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <figure class="effect-milo">
+                        <img src="img/bg-img/PH3.jpg" alt="img11"/>
+                            <figcaption>
+                                <h2>Machine</h2>
+                                <p>Directeur près de la moissonneuse batteuse.</p>
+                               
+                            </figcaption>			
+                        </figure>
+                    </div>                  
+				</div>
+                <div class="row grid">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <figure class="effect-milo">
+                        <img src="img/bg-img/PH4.jpg" alt="img11"/>
+                            <figcaption>
+                                <h2><span>Suivi</span></h2>
+                                <p>Inspection de l'évolution des plants de riz.</p>
+                                
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <figure class="effect-milo">
+                        <img src="img/bg-img/PH5.jpg" alt="img11"/>
+                            <figcaption>
+                                <h2>Encadrement</h2>
+                                <p>Remise de produits agricoles aux producteurs</p>
+                                
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <figure class="effect-milo">
+                        <img src="img/bg-img/PH6.jpg" alt="img11"/>
+                            <figcaption>
+                                <h2>Récolte</h2>
+                                <p>Entreposage du riz après la récolte.</p>
+                                
+                            </figcaption>			
+                        </figure>
+                    </div>                  
+				</div>
 
-    <!-- Service Content -->
-    <div class="services-content section-padding-100-50 px-5">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <!-- Section Heading -->
-            <div class="section-heading">
-              <p>Nos produits</p>
-              <h2><span>Produits</span> Finis et Semi-finis</h2>
-              <img src="img/core-img/decor.png" alt="">
-            </div>
-          </div>
-        </div>
+                <div class="row grid">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <figure class="effect-milo">
+                        <img src="img/bg-img/PH11.jpg" alt="img11"/>
+                            <figcaption>
+                                <h2>Encadrement</h2>
+                                <p>Remise de kits aux producteurs.</p>
+                                
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <figure class="effect-milo">
+                        <img src="img/bg-img/PH12.jpg" alt="img11"/>
+                            <figcaption>
+                                <h2>Récolte</h2>
+                                <p>Etalage du riz pour son conditionnement.</p>
+                                
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <figure class="effect-milo">
+                        <img src="img/bg-img/PH13.jpg" alt="img11"/>
+                            <figcaption>
+                                <h2>Récolte</h2>
+                                <p>Les producteurs en plein mélange du paddy pour une qualité.</p>                              
+                            </figcaption>			
+                        </figure>
+                    </div>                  
+				</div>
+			</div>
 
-        <div class="row">
-          <div class="col-12 mb-50">
-            <p>Mauris fermentum nunc quis massa lacinia consequat. Suspendisse orci magna, pharetra sedonia risus ut,
-              elementum mollis nisin. Nunc in sapien turpis. Donec egeto david orci pulvinar ultrices necto drax turpis.
-              Pellentesque justo metus, semper nec ullamcorper id, gravida ultricies arcu.</p>
-          </div>
-
-          <!-- Single Service Area -->
-          <div class="col-12 col-lg-6">
-            <div class="single-service-area mb-50 wow fadeInUp" data-wow-delay="100ms">
-              <!-- Service Title -->
-              <div class="service-title mb-3 d-flex align-items-center">
-                <img src="img/core-img/s1.png" alt="">
-                <h5>Le Riz</h5>
-              </div>
-              <p>Intiam eu sagittis est, aster cosmo lacini libero. Praesent dignissim sed odio velo aliquam manta legolas. </p>
-            </div>
-          </div>
-
-          <!-- Single Service Area -->
-          <div class="col-12 col-lg-6">
-            <div class="single-service-area mb-50 wow fadeInUp" data-wow-delay="200ms">
-              <!-- Service Title -->
-              <div class="service-title mb-3 d-flex align-items-center">
-                <img src="img/core-img/s2.png" alt="">
-                <h5>Le Maïs</h5>
-              </div>
-              <p>Intiam eu sagittis est, aster cosmo lacini libero. Praesent dignissim sed odio velo aliquam manta legolas. </p>
-            </div>
-          </div>
-
-          <!-- Single Service Area -->
-          <div class="col-12 col-lg-6">
-            <div class="single-service-area mb-50 wow fadeInUp" data-wow-delay="300ms">
-              <!-- Service Title -->
-              <div class="service-title mb-3 d-flex align-items-center">
-                <img src="img/core-img/s3.png" alt="">
-                <h5>La tomate</h5>
-              </div>
-              <p>Intiam eu sagittis est, aster cosmo lacini libero. Praesent dignissim sed odio velo aliquam manta legolas. </p>
-            </div>
-          </div>
-
-          <!-- Single Service Area -->
-          <div class="col-12 col-lg-6">
-            <div class="single-service-area mb-50 wow fadeInUp" data-wow-delay="400ms">
-              <!-- Service Title -->
-              <div class="service-title mb-3 d-flex align-items-center">
-                <img src="img/core-img/s4.png" alt="">
-                <h5>Le coton</h5>
-              </div>
-              <p>Intiam eu sagittis est, aster cosmo lacini libero. Praesent dignissim sed odio velo aliquam manta legolas. </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ##### Services Area End ##### -->
-
-<!-- ##### Our Products Area Start ##### -->
-<section class="our-products-area section-padding-100">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <!-- Section Heading -->
-          <div class="section-heading text-center">
-            <p>Produits Semi-Finis et Finis</p>
-            <h2><span>Nos produits</span> sont Bio et de qualité</h2>
-            <img src="img/core-img/decor2.png" alt="">
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-
-        <!-- Single Product Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
-            <!-- Product Thumbnail -->
-            <div class="product-thumbnail">
-              <img src="img/bg-img/riz.png" alt="">
-              <!-- Product Tags -->
-              <span class="product-tags">Bio</span>
-              <!-- Product Meta Data -->
-              <div class="product-meta-data">
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="icon_cart_alt"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><i class="arrow_left-right_alt"></i></a>
-              </div>
-            </div>
-            <!-- Product Description -->
-            <div class="product-desc text-center pt-4">
-              <a href="#" class="product-title">Riz</a>
-              <h6 class="price"></h6>
-            </div>
-          </div>
-        </div>
-
-        <!-- Single Product Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="300ms">
-            <!-- Product Thumbnail -->
-            <div class="product-thumbnail">
-              <img src="img/bg-img/maïs.png" alt="">
-              <!-- Product Tags -->
-              <span class="product-tags">Bio</span>
-              <!-- Product Meta Data -->
-              <div class="product-meta-data">
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="icon_cart_alt"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><i class="arrow_left-right_alt"></i></a>
-              </div>
-            </div>
-            <!-- Product Description -->
-            <div class="product-desc text-center pt-4">
-              <a href="#" class="product-title">Maïs</a>
-              <h6 class="price"></h6>
-            </div>
-          </div>
-        </div>
-
-        <!-- Single Product Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="500ms">
-            <!-- Product Thumbnail -->
-            <div class="product-thumbnail">
-              <img src="img/bg-img/tomate.png" alt="">
-              <!-- Product Tags -->
-              <span class="product-tags">Bio</span>
-              <!-- Product Meta Data -->
-              <div class="product-meta-data">
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="icon_cart_alt"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><i class="arrow_left-right_alt"></i></a>
-              </div>
-            </div>
-            <!-- Product Description -->
-            <div class="product-desc text-center pt-4">
-              <a href="#" class="product-title">Tomate</a>
-              <h6 class="price"></h6>
-            </div>
-          </div>
-        </div>
-
-        <!-- Single Product Area -->
-        <div class="col-12 col-sm-6 col-lg-3">
-          <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="700ms">
-            <!-- Product Thumbnail -->
-            <div class="product-thumbnail">
-              <img src="img/bg-img/coton.png" alt="">
-              <!-- Product Tags -->
-              <span class="product-tags">Bio</span>
-              <!-- Product Meta Data -->
-              <div class="product-meta-data">
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="icon_heart_alt"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Add To Cart"><i class="icon_cart_alt"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Compare"><i class="arrow_left-right_alt"></i></a>
-              </div>
-            </div>
-            <!-- Product Description -->
-            <div class="product-desc text-center pt-4">
-              <a href="#" class="product-title">Coton</a>
-              <h6 class="price"><span></span> </h6>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <div class="gotoshop-btn text-center wow fadeInUp" data-wow-delay="900ms">
-            <a href="/products" class="btn famie-btn">Tous les produits</a>
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
-  <!-- ##### Our Products Area End ##### -->
 
 <!-- ##### Newsletter Area Start ##### -->
 <section class="newsletter-area section-padding-100 bg-img bg-overlay jarallax" style="background-image: url('img/bg-img/newsletter.png');">

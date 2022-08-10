@@ -20,10 +20,10 @@
                         <ul>
                             <li class="active"><a href="/">Accueil</a></li>
                             <li><a href="/about">Présentation</a></li>
-                            <li><a href="/expertise">Notre métier</a></li>
-                            <li><a href="/services">Services</a></li>
+                            <li><a href="/expertise">Notre métier</a></li> 
+                            <li><a href="/services">Services</a></li>                           
                             <li><a href="/products">Produits</a></li>                           
-                            <li><a href="/news">Actualités</a></li>
+                            <li><a href="/galery">Galerie</a></li>
                             <li><a href="/contacts">Contact</a></li>
                         </ul>                       
                     </div>

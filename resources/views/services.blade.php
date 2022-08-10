@@ -1,5 +1,6 @@
 
 @extends('layouts.base')
+@section('title', 'Nos services')
 @section('content')
 <!-- ##### Breadcrumb Area Start ##### -->
 <div class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url('img/bg-img/18.jpg');">
@@ -7,7 +8,7 @@
     <div class="row h-100 align-items-center">
       <div class="col-12">
         <div class="breadcrumb-text">
-          <h1>Nos Services</h1>
+          <h1> Nos Services</h1>
         </div>
       </div>
     </div>
